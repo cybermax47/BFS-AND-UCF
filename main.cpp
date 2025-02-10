@@ -103,7 +103,7 @@ int main() {
     char runagain;
     do {
         string name;
-        cout << "--ENTER YOUR NAME TO START THE GAME-- " << endl;
+        cout << "--ENTER YOUR NAME TO START GAME-- " << endl;
         cin >> name;
 
         Game game(name);
@@ -117,7 +117,7 @@ int main() {
         else
         {
             system("cls");
-            cout<< endl << "--GAME TERMINATED--\n--THANK YOU FOR PLAYING--" << endl;
+            cout<< endl << "--GAME ENDED--\n--THANK YOU FOR PLAYING--" << endl;
         }
     }while(runagain == 'y' || runagain == 'Y');
     return 0;
